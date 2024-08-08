@@ -1,11 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Linden+Hill:ital@0;1&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Sora:wght@100..800&display=swap');
-
-:root {
-    --strong-purple: #883AE1;
-    --light-purple: #E6D6FC;
-    --light-gray: #E5EAF0;
-    --off-white: #FAFAF9;
-    --pure-white: #FFF;
-    --almost-black: #20293A;
-    --dark-gray: #6C727F;
-}
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
