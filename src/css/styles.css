@@ -2,3 +2,13 @@
 @import "tailwindcss/base";
 @import "tailwindcss/components";
 @import "tailwindcss/utilities";
+
+:root {
+    --strong-purple: #883AE1;
+    --light-purple: #E6D6FC;
+    --light-gray: #E5EAF0;
+    --off-white: #FAFAF9;
+    --pure-white: #FFF;
+    --almost-black: #20293A;
+    --dark-gray: #6C727F;
+}
