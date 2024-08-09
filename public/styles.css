@@ -556,8 +556,96 @@ video {
   --tw-contain-style:  ;
 }
 
+.mb-\[16px\]{
+  margin-bottom: 16px;
+}
+
+.inline-block{
+  display: inline-block;
+}
+
+.flex{
+  display: flex;
+}
+
+.h-screen{
+  height: 100vh;
+}
+
+.h-\[152px\]{
+  height: 152px;
+}
+
+.w-\[336px\]{
+  width: 336px;
+}
+
+.items-center{
+  align-items: center;
+}
+
+.justify-center{
+  justify-content: center;
+}
+
+.rounded-sm{
+  border-radius: 0.125rem;
+}
+
+.rounded-md{
+  border-radius: 0.375rem;
+}
+
+.rounded-lg{
+  border-radius: 0.5rem;
+}
+
+.rounded-xl{
+  border-radius: 0.75rem;
+}
+
+.border-2{
+  border-width: 2px;
+}
+
+.border-solid{
+  border-style: solid;
+}
+
+.border-sky-500{
+  --tw-border-opacity: 1;
+  border-color: rgb(14 165 233 / var(--tw-border-opacity));
+}
+
+.border-black{
+  --tw-border-opacity: 1;
+  border-color: rgb(0 0 0 / var(--tw-border-opacity));
+}
+
 .bg-strong-purple{
   background-color: var(--strong-purple);
+}
+
+.bg-light-purple{
+  background-color: var(--light-purple);
+}
+
+.p-\[16px\]{
+  padding: 16px;
+}
+
+.px-\[16px\]{
+  padding-left: 16px;
+  padding-right: 16px;
+}
+
+.py-\[6px\]{
+  padding-top: 6px;
+  padding-bottom: 6px;
+}
+
+.pb-\[20px\]{
+  padding-bottom: 20px;
 }
 
 .text-center{
@@ -569,6 +657,10 @@ video {
   line-height: 2.25rem;
 }
 
+.text-\[10px\]{
+  font-size: 10px;
+}
+
 .font-bold{
   font-weight: 700;
 }
@@ -576,6 +668,10 @@ video {
 .text-red-500{
   --tw-text-opacity: 1;
   color: rgb(239 68 68 / var(--tw-text-opacity));
+}
+
+.text-strong-purple{
+  color: var(--strong-purple);
 }
 
 .underline{
